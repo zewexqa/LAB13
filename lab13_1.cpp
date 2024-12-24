@@ -9,11 +9,11 @@ int main(){
     int N = sizeof(A)/sizeof(A[0]);
     double B[6];
     stat(A,N,B);
-    cout << "Arithmetic Mean = " << B[0];
-    cout << "\nStandard Deviation = " << B[1];
-    cout << "\nGeometric Mean = " << B[2];
-    cout << "\nHarmonic Mean = " << B[3];
-    cout << "\nMax = " << B[4];
-    cout << "\nMin = " << B[5];
+    cout << "Arithmetic Mean = " << B[0] << endl;
+    cout << "Standard Deviation = " << B[1] << endl;
+    cout << "Geometric Mean = " << B[2] << endl;
+    cout << "Harmonic Mean = " << B[3] << endl;
+    cout << "Max = " << B[4] << endl;
+    cout << "Min = " << B[5];
     return 0;
 }
